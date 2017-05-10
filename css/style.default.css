@@ -147,20 +147,6 @@ UNIVERSAL SECTION STYLES
     background: #eeeeee;
   }
 }
-.text-parallax {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  -webkit-backface-visibility: hidden;
-}
-.text-parallax.parallax-image1 {
-  background: url('../img/parallax.jpg') center center no-repeat fixed;
-}
-@media (max-width: 991px) {
-  .text-parallax {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
 p.lead {
   font-size: 30px;
   font-weight: 100;
@@ -659,8 +645,7 @@ strong {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
-  line-height: 20px;
-  height: 80px;
+  height: 65px;
   letter-spacing: 0.1em;
 }
 .navbar-brand:hover,
